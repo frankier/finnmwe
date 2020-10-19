@@ -1,3 +1,4 @@
 #!/bin/bash
 
-datasette package --tag finnmwe finnmwe
+datasette package --tag frankierr/finnmwe:latest finnmwe
+docker push frankierr/finnmwe:latest
